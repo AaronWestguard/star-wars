@@ -4,6 +4,7 @@
   color: white;
   flex-wrap: wrap;
   min-height: 300px;
+  margin: 30px 0px;
 }
 
 .card {
@@ -32,4 +33,27 @@
 .buttonContainer {
   display: flex;
   justify-content: center;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+
+  height: auto;
+  width: 100px;
+  transition: all 0.3s;
+}
+
+.button:disabled {
+  background-color: yellow;
+
+  background-color: lightgrey;
+  color: #666666;
+}
+
+.button:hover {
+  background-color: yellow;
 }
